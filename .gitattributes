@@ -1,2 +1,181 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>fitnesssProject</title>
+    <style>
+     
+    
+    .container {
+         background-image:linear-gradient(108.1deg, rgb(167, 220, 225) 11.2%, rgb(217, 239, 242) 88.9%);
+
+
+
+
+
+        color:            #fff;
+        font-family:      "Cerebri Sans", Helvetica, Arial, sans-serif;
+    border: 1px solid rgb(214, 203, 203);
+    border-radius: 50px; 
+    box-shadow: rgb(182, 174, 174) 2px 2px 2px 2px;
+    max-width: 50%;
+    text-align: center;
+    display: block;
+    margin: 60px auto; 
+    
+    }
+    .location{
+        letter-spacing: 5px;
+        font-weight: bold;
+        font-size:15px;
+        color:#0c4e36;
+    text-shadow: 1px 1px 1px; 
+    padding: 20px 20px; 
+    display: inline-block;
+    margin: 5px 170px 40px 170px;  
+    border: 1px solid teal; 
+    box-shadow: 1px 1px 1px 1px #379989; 
+    background-color:linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    
+}
+    
+
+    .logo {
+    width: 20%;
+    height:20%;
+    display: inline-block;  
+  border: 1px rgb(9, 97, 88) solid; 
+  border-radius: 100px;
+  padding: 0px; 
+  margin: 30px auto auto auto;
+  box-shadow: 2px 2px 2px 2px #379989; 
+  
+}
+
+        .subheading {
+            font-weight: bold;
+            text-decoration: underline;
+            color:#1a7c58;
+            text-align: center;
+            padding: 0px; 
+            max-width: 300px;
+            margin: 0 auto 0  auto; 
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+            line-height: 50px;
+            text-shadow: 2px 2px 0px rgb(9, 97, 88)
+        
+        }
+     hr {
+         max-width: 300px
+
+     }
+
+     .park {
+         padding: 0px; 
+         height: 200px;
+         width:300px;
+         border-radius: 20px;
+         box-shadow: 2px 2px 2px 2px #379989; 
+     }
+    
+button {
+  margin: 0px auto 50px 250px;
+    color: white; 
+    margin: 30px auto;
+    border-radius: 5px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 2px 2px #379989; 
+   border: grey; 
+   background:linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+button:hover{
+    cursor: pointer;
+    transition: 100ms ease-in-out;
+    background: linear-gradient(to top, #066b3f 0%, #117a59 100%);
+
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+    
+        ul{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            max-width: 400px;
+            margin: 0 auto;
+            display:block;
+            list-style:none;
+            font-weight:bold;
+            color: #1a7c58;
+            text-align: center;
+            padding: 20px; 
+          text-shadow: 2px 2px 0px rgb(9, 97, 88);
+
+;
+
+            
+        }
+        .dayTime{
+            padding: 30px 0px 0px 0px;
+            font-size: 40px; 
+
+        }
+        .price {
+
+    padding: 30px; 
+    font-size:40px;
+        }
+        .method{
+            padding: 0px 0px 30px 0px; 
+           font-size: 40px; 
+
+        }
+        
+        
+        </style>
+        <body>
+    
+        <div class="container">
+   <img src = https://scontent-man2-1.xx.fbcdn.net/v/t1.6435-9/160307054_100650152113914_7522069374365922983_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=QOsmVV7hsB4AX8JNtWT&_nc_ht=scontent-man2-1.xx&oh=5b3618583156785711073b9059b8c243&oe=61558019 class= "logo"> 
+        <br>
+        <br> 
+        <div class= "subheading"> 
+               Steady Fitness <br>
+              Bootcamp
+        </div>
+     
+        <br>
+        <div class = "location">Goldenhill Park
+            <br>
+            Duntocher 
+        </div>
+        <hr>
+        <br>
+         
+        <img src = https://i.pinimg.com/originals/e9/80/a5/e980a5b3fdcb34766e5bcb5a2ac04c94.jpg class = "park" >
+    <br>
+    <br>
+    
+    <hr>
+
+<ul> 
+     <li class= "dayTime">Wednesday woof  6pm-6.30pm</li>
+     <li class= "price"> £3 per class </li>
+      <li class="method"> Cash or paypal accepted </li>
+</ul>
+<button>
+     <a href="https://www.facebook.com/SteadyFitness-100648922114037"
+ target="_blank" class = "link">
+    Book Now</button>
+</a>
+        </div>
+        
+    
+
+        </body>
+        </html>  
+
